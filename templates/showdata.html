@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admission Prediction Using RandomForest </title>
+</head>
+<body bgcolor="#f5f5dc">
+<h2 align="center">Type of flower</h2>
+<form method="post" action="/getdata/">
+    <table align="center">
+        <tr>
+            <td>It belong to</td>
+            <td><strong>{{ name }}</strong></td>
+        </tr>
+           </table>
+
+</form>
+{% load static %}
+    <p style="text-align:center;"> <img  src="{% static "my_app/Scatter.png" %}" align="center" alt="My image"></p>
+</body>
+</html>
